@@ -74,4 +74,20 @@ Assemblies are .exe or .dll files - contain metadata about all types inside
 Global Assembly Cache
 A central location to store assemblies for a machine
 
+---Browsing Assemblies----
+Features around creating and using other assemblies
+bin\Debug directory - AppName.exe
+What rules are used to pick that name and ext.?
+Project > Properties
+DLL (Class Library) Dynamic Link Library
+used by other classes and apps not stand-alone app
+MSCoreLib.dll - implied, not listed in References
+Math class
+examples of other classes from .Net framework
+place cursor on class name and press F12 source code
+at top VS will tell you what Assembly it is
+References > all assemblies that project references
+View > Object Browser look through all namespaces and types
+
+
 
