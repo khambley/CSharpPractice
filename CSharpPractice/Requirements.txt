@@ -47,3 +47,12 @@ private keyword - cannot access outside class
 if you don't explicitly tell C# an access modifier, default is private.
 Fields and data are typically private.
 
+----Statics----
+use static members of a class without creating an instance
+public static float MinimumGrade = 0;
+public static float MaximumGrade = 100;
+Instead, you reference the field or type name and then the name of the field or method
+
+Console.WriteLine is an example of a static class. You don't have to create an instance of
+console to use members of it.
+
