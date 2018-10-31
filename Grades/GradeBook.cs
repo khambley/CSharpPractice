@@ -22,8 +22,10 @@ namespace Grades
             //Average Grade
             float sum = 0;
             foreach(float grade in grades)
-            {
+            {   
+                //Find HighestGrade in List
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
+                //Find LowestGrade in List
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
                 sum += grade;
             }
