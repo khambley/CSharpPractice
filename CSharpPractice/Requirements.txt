@@ -31,3 +31,10 @@ ctor - shortcut for creating a constructor
 Class is a blueprint for creating objects.
 You can use a class to define the type of variable.
 Variable is a pointer that points to a specific object.
+
+----Reference Types----
+Classes are reference types
+Variables hold a pointer value to that object in memory.
+GradeBook book1 = new GradeBook(); where the GradeBook lives in memory
+You can have multiple variables pointing to same place.
+GradeBook book2 = book1; Copies it.
