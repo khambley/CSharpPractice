@@ -19,7 +19,7 @@ namespace Grades
         }
 
         //NullReferenceException, using an uninitialized variable, a variable that points to nothing
-        List<float> grades;
+        private List<float> grades;
 
     }
 }
