@@ -89,5 +89,8 @@ at top VS will tell you what Assembly it is
 References > all assemblies that project references
 View > Object Browser look through all namespaces and types
 
+----Referencing Assemblies----
+Right-click References > choose assemblies you need to reference
+
 
 
