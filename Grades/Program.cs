@@ -16,7 +16,7 @@ namespace Grades
 
             GradeBook book2 = book;
             book2.AddGrade(75);
-            
+            //book2.grades Can't access private members outside of class
         }
     }
 }
