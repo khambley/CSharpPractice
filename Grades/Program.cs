@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpPractice
+namespace Grades
 {
     class Program
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
