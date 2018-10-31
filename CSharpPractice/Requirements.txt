@@ -16,3 +16,18 @@ GradeBook State
 GradeBook Behavior
 1. Add a new grade
 2. Calculate statistics
+
+----Classes & Objects----
+create objects with class (like a cookie cutter)
+Objects are allocated into memory
+new keyword
+
+----Constructors---
+a method that helps create an instance of class, initialization of object
+can set default values
+ctor - shortcut for creating a constructor
+
+----Classes and Variables----
+Class is a blueprint for creating objects.
+You can use a class to define the type of variable.
+Variable is a pointer that points to a specific object.
