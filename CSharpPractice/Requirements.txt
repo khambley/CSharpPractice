@@ -56,3 +56,9 @@ Instead, you reference the field or type name and then the name of the field or 
 Console.WriteLine is an example of a static class. You don't have to create an instance of
 console to use members of it.
 
+----Statistics----
+Highest grade
+Lowest grade
+Average grade
+Create a class called GradeStatistics which will encapsulate High, low and avg grades
+Create a method in GradeBook that will Compute Statistics and return a GradeStatistics object type.
