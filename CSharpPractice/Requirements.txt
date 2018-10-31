@@ -91,6 +91,11 @@ View > Object Browser look through all namespaces and types
 
 ----Referencing Assemblies----
 Right-click References > choose assemblies you need to reference
+System.Speech cool speech synthesizer!
 
-
-
+----Unit Testing----
+Write code to test code automated tests
+Brute force information to get started
+Unit Test Project - for classes to verify they are behaving correctly.
+Attributes in C# - a piece of data that is associated with class or members [TestMethod]
+Example: Assert.AreEqual(3, 4) will fail because 3 and 4 are not equal.
