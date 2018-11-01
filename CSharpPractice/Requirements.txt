@@ -99,3 +99,8 @@ Brute force information to get started
 Unit Test Project - for classes to verify they are behaving correctly.
 Attributes in C# - a piece of data that is associated with class or members [TestMethod]
 Example: Assert.AreEqual(3, 4) will fail because 3 and 4 are not equal.
+
+Keywords:
+Public - everywhere
+Private - Only in the same class
+Internal - Only in the same assembly
