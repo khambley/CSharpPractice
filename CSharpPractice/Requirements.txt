@@ -104,3 +104,51 @@ Keywords:
 Public - everywhere
 Private - Only in the same class
 Internal - Only in the same assembly
+
+----Types----
+Reference Types vs. Value Types
+Variables store a reference to an object.
+Classes are reference types, literally object contains address in memory
+Value Types - Variable hold the value, not a pointer to address in memory
+No pointers, No references
+int x1 = 100 -> hold 100 value in memory
+int x2 = 4 -> holds 4 value in memory
+lot less memory to store values - many built-in primitives are value types
+value types are typically immutable - can't change value
+The value 3 is always the value 3.
+How do you know what you are working with?
+Ref type vs. Value type
+
+----Shortcuts----
+Tab twice after typing the following:
+ctor - creates a constructor
+prop - creates a property
+cw - creates a Console.WriteLine()
+testm - creates a testmethod
+
+----Creating Value Types----
+struct - 
+When should I write a class and a struct?
+You typically write a class by default.
+Structs are when you need an abstract for a single value.
+Ex: public struct DateTime - represents a single value
+structs contain a small amount of data
+enum - An enum creates a value type and only holds specific numeric values
+create named constants
+ex: public enum PayrollType {
+	Contractor = 1,
+	Salaried,
+	Executive,
+	Hourly
+}
+if you use those numbers in source code, they become 'magic' numbers, what do they represent?
+if(employee.Role == 2){
+	//...
+}
+enum turns magic numbers into symbols
+if(employee.Role == PayrollType.Hourly){
+	//...
+}
+By default, the first value will be 0 (zero) unless provided. 
+
+----Method Parameters----

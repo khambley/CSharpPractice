@@ -39,6 +39,8 @@ namespace Grades
             grades.Add(grade);
         }
 
+        public string Name;
+
         //NullReferenceException, using an uninitialized variable, a variable that points to nothing
         private List<float> grades;
 

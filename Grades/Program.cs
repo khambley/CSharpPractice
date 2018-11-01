@@ -11,8 +11,9 @@ namespace Grades
     {
         static void Main(string[] args)
         {
-            SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.Speak("Hello! Your speakers are on.");
+
+            //SpeechSynthesizer synth = new SpeechSynthesizer();
+            //synth.Speak("Hello! Your speakers are on.");
 
             GradeBook book = new GradeBook();
             book.AddGrade(91);
